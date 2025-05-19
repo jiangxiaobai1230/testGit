@@ -45,6 +45,8 @@ public class TestStream {
         System.out.println("列表: " + integers);
 
         IntSummaryStatistics stats = integers.stream().mapToInt((x) -> x).summaryStatistics();
+        System.out.println("test");
+        System.out.println("test");
 
         System.out.println("列表中最大的数 : " + stats.getMax());
         System.out.println("列表中最小的数 : " + stats.getMin());
